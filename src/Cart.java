@@ -30,7 +30,7 @@ public class Cart {
                 totalWeight += item.product.getWeight() * item.quantity;
             }
         }
-        return totalWeight * 10; // فرضاً 10 لكل كيلو
+        return totalWeight * 10;
     }
 
     public List<CartItem> getItems() {
